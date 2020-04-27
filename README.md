@@ -5,7 +5,7 @@
 - Easy to use API
 - Easy to install
 
-# Version
+# Versions-
 
 `text-formatter` has released version `1.0.1`.
 
