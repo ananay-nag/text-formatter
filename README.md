@@ -1,4 +1,4 @@
-# TEXT-FPRMATTER
+# TEXT-FORMATTER
 
 `text-formatter` module is a comprehensive nodejs for format text / replace some text with following features:
 
