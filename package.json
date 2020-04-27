@@ -1,0 +1,29 @@
+{
+  "name": "text-formatter",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ananay-nag@bitbucket.org/RedHeartGroup/text-formatter.git"
+  },
+  "keywords": [
+    "format",
+    "formatter",
+    "text",
+    "message",
+    "text-change",
+    "change-message",
+    "replace-text",
+    "replace"
+  ],
+  "author": "REDHEART-GROUP",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/RedHeartGroup/text-formatter#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
