@@ -5,11 +5,11 @@
 - Easy to use API
 - Easy to install
 
-# Version
+# Versions-
 
-`text-formatter` has released version `1.0.0`.
+`text-formatter` has released version `1.0.1`.
 
-It is still able to use v1 with `text-formatter@1.0.0`
+It is still able to use v1 with `text-formatter@1.0.1`
 
 ```js
 // v1
