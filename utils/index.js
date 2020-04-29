@@ -6,11 +6,12 @@ const utility = {
   isArray,
   isObject,
   isExactMatchObject,
-  isExactMatchArray
+  isExactMatchArray,
+  handleResponse
 };
 
 function infoLogger(message, type = "INFO", isLogged = true) {
-  if (isLogged) {
+  if (false) {
     console.log(
       JSON.stringify({
         message: message,
@@ -21,8 +22,18 @@ function infoLogger(message, type = "INFO", isLogged = true) {
 }
 function handleError(message, code) {
   return JSON.stringify({
+    success:false,
+    data:"",
     message: message ? message : "unknown error",
     code: code ? code : httpConstant.RESPONSE_CODE.BAD_REQUEST
+  });
+}
+function handleResponse(data) {
+  return JSON.stringify({
+    success:true,
+    data:data,
+    message: "success",
+    code: httpConstant.RESPONSE_CODE.SUCCESS
   });
 }
 function isString(string) {
