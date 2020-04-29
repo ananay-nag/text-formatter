@@ -29,7 +29,7 @@ module.exports = {
         );
       }
       if (utility.isExactMatchObject(textMessage, objectData)) {
-        return blManager.replaceObject(textMessage, objectData);
+        return utility.handleResponse(blManager.replaceObject(textMessage, objectData0));
       } else {
         utility.infoLogger(errorHandle.message.KEYS_NOT_MATCHED, "INFO", true);
         return utility.handleError(
