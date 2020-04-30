@@ -29,4 +29,7 @@
     "url": "https://github.com/ananay-nag/text-formatter/issues"
   },
   "author": "ANANAY-NAG"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
