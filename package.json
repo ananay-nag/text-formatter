@@ -1,36 +1,4 @@
 {
-  "_from": "text-formatter",
-  "_id": "text-formatter@1.0.1",
-  "_inBundle": false,
-  "_integrity": "sha512-ouMoLNkPBXB0wKR7RssMAnsVRaageBML6ocMO7HWLam7YsHH4BSL5vhLpXkRmNNgeXYENNsHBP5wemW260RUUw==",
-  "_location": "/text-formatter",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "text-formatter",
-    "name": "text-formatter",
-    "escapedName": "text-formatter",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/text-formatter/-/text-formatter-1.0.1.tgz",
-  "_shasum": "ef63fa8371f32d2c260a31849906dd760b6db647",
-  "_spec": "text-formatter",
-  "_where": "E:\\REDHEART_GROUP\\test",
-  "author": {
-    "name": "ANANYA NAG"
-  },
-  "bugs": {
-    "url": "https://github.com/ananay-nag/text-formatter/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "This README would normally document whatever steps are necessary to get your application up and running.",
   "directories": {
     "lib": "lib"
@@ -56,5 +24,9 @@
   "scripts": {
     "start": "node index.js"
   },
-  "version": "1.0.1"
+  "version": "1.0.1",
+  "bugs": {
+    "url": "https://github.com/ananay-nag/text-formatter/issues"
+  },
+  "author": "ANANAY-NAG"
 }
