@@ -44,8 +44,11 @@ var str = "{NAME} is working as {POSITION} in {COMPANY} compnay.";
 
 try {
   let result = formatter.doFormatByObject(str, user);
-  console.log("result :: ", result);
-  //result :: Foo is working as Full Stack Developer in Google compnay.
+  console.log(result);
+  /*{ success: true,
+  data: 'Foo is working as Full Stack Developer in Google compnay.',
+  message: 'success',
+  code: 200 }*/
 } catch (e) {
   console.log(e);
 }
