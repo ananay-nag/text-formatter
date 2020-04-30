@@ -24,7 +24,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "version": "1.0.1",
+  "version": "1.0.3",
   "bugs": {
     "url": "https://github.com/ananay-nag/text-formatter/issues"
   },
