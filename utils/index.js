@@ -21,20 +21,20 @@ function infoLogger(message, type = "INFO", isLogged = true) {
   }
 }
 function handleError(message, code) {
-  return JSON.stringify({
+  return {
     success:false,
     data:"",
     message: message ? message : "unknown error",
     code: code ? code : httpConstant.RESPONSE_CODE.BAD_REQUEST
-  });
+  }
 }
 function handleResponse(data) {
-  return JSON.stringify({
+  return {
     success:true,
     data:data,
     message: "success",
     code: httpConstant.RESPONSE_CODE.SUCCESS
-  });
+  }
 }
 function isString(string) {
   return (
