@@ -24,12 +24,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "version": "1.0.4",
+  "version": "1.0.3",
   "bugs": {
     "url": "https://github.com/ananay-nag/text-formatter/issues"
   },
   "author": "ANANAY-NAG",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@ananay-nag"
   }
 }
