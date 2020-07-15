@@ -49,9 +49,9 @@ function isObject(object) {
   return typeof object === "object" && Object.keys(object).length > 0;
 }
 function isExactMatchObject(text, data) {
-  return Object.keys(data).length === text.match(/{(\w+)}/gi).length;
+  return Object.keys(data).length >= text.match(/{(\w+)}/gi).length;
 }
 function isExactMatchArray(text, data) {
-  return data.length === text.match(/{(\w+)}/gi).length;
+  return data.length >= text.match(/{(\w+)}/gi).length;
 }
 module.exports.utility=utility;
