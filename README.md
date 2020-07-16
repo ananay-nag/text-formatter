@@ -7,12 +7,12 @@
 
 # Versions-
 
-`text-formatter` has released version `1.0.4`.
+`text-formatter` has released version `1.0.5`.
 
-It is still able to use v1 with `text-formatter@1.0.4`
+It is still able to use v1 with `text-formatter@1.0.5`
 
 ```js
-// v1.0.4
+// v1.0.5
 const formatter = require("text-formatter");
 ```
 
