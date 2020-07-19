@@ -30,9 +30,6 @@
   },
   "author": "ANANAY-NAG",
   "publishConfig": {
-    "registry": [
-      "https://registry.npmjs.org/",
-      "https://npm.pkg.github.com"
-    ]
+    "registry": "https://npm.pkg.github.com"
   }
 }
