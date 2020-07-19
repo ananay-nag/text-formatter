@@ -16,7 +16,7 @@
   ],
   "license": "ISC",
   "main": "index.js",
-  "name": "text-formatter",
+  "name": "@ananay-nag/text-formatter",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ananay-nag/text-formatter.git"
@@ -30,6 +30,6 @@
   },
   "author": "ANANAY-NAG",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@ananay-nag"
+    "registry": "https://registry.npmjs.org/"
   }
 }

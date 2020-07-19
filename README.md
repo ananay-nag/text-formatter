@@ -1,19 +1,19 @@
 # TEXT-FORMATTER
 
-`text-formatter` module is a comprehensive nodejs for format text / replace some text with following features:
+`@ananay-nag/text-formatter` module is a comprehensive nodejs for format text / replace some text with following features:
 
 - Easy to use API
 - Easy to install
 
 # Versions-
 
-`text-formatter` has released version `1.0.5`.
+`@ananay-nag/text-formatter` has released version `1.0.5`.
 
-It is still able to use v1 with `text-formatter@1.0.5`
+It is still able to use v1 with `@ananay-nag/text-formatter@1.0.5`
 
 ```js
 // v1.0.5
-const formatter = require("text-formatter");
+const formatter = require("@ananay-nag/text-formatter");
 ```
 
 # Quick Start
@@ -26,13 +26,13 @@ const formatter = require("text-formatter");
 ### Installation
 
 ```
-npm i --save text-formatter
+npm i --save @ananay-nag/text-formatter
 ```
 
 ### Text formatter using a Object.
 
 ```js
-const formatter = require("text-formatter");
+const formatter = require("@ananay-nag/text-formatter");
 
 var user = {
   NAME: "Foo",
